@@ -72,7 +72,7 @@ public:
 		
 		if (m_result.Find(_T(".0000"), 0) != -1) {
 			pos = m_result.Find(_T(".0000"), 0);
-			m_result.Delete(pos, 4);
+			m_result.Delete(pos, 5);
 		}
 		else if (m_result.Find(_T("000"), 0) != -1) {
 			pos = m_result.Find(_T("000"), 0);
